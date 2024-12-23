@@ -2,7 +2,8 @@
 
 Ujian Akhir Semester – Mata Kuliah Pemrograman Web - RA
 
-# Panduan Hosting Aplikasi Web di 000WebHost
+# Panduan Hosting Aplikasi Web di 000WebHost 
+# Dikarenakan mepetnya waktu dalam mengerjakan UAS ini, mungkin izinkan saya menjelaskan langkah - langkah yang biasa saya lakukan untuk hosting web dengan 000webhost. Saya tidak tau karena 000webhost sudah disatukan dengan hostinger.
 
 ## 1. Langkah-langkah untuk Meng-host Aplikasi Web
 
