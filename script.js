@@ -1,9 +1,8 @@
 document
   .getElementById("registerForm")
   .addEventListener("submit", function (e) {
-    e.preventDefault(); // Prevent form submission
+    e.preventDefault(); 
 
-    // Clear previous errors
     clearErrors();
 
     const name = document.getElementById("name").value.trim();
@@ -52,20 +51,18 @@ document
     }
 
     if (valid) {
-      alert("Registration successful!"); // Simulate success
+      alert("Registration successful!"); 
       this.submit(); // Submit form
     }
   });
 
-// Function to show error message
 function showError(id, message) {
   document.getElementById(id).textContent = message;
 }
 
-// Function to clear all error messages
 function clearErrors() {
   const errorElements = document.querySelectorAll(".error-message");
   errorElements.forEach((element) => {
-    element.textContent = ""; // Clear the error message
+    element.textContent = ""; 
   });
 }

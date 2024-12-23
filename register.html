@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Registration</title>
+    <title>Registrasi Admin</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div class="form-container">
-        <h2>Admin Registration</h2>
+        <h2>Registrasi Admin</h2>
         <form id="registerForm" action="process.php" method="POST">
-            <label for="name">Name</label>
+            <label for="name">Nama</label>
             <input type="text" id="name" name="name" required>
             <div id="nameError" class="error-message"></div>
 
-            <label for="username">Username</label>
+            <label for="username">Nama Pengguna</label>
             <input type="text" id="username" name="username" required>
             <div id="usernameError" class="error-message"></div>
 
@@ -24,21 +24,21 @@
             <input type="email" id="email" name="email" required>
             <div id="emailError" class="error-message"></div>
 
-            <label for="password">Password</label>
+            <label for="password">Kata Sandi</label>
             <input type="password" id="password" name="password" required>
             <div id="passwordError" class="error-message"></div>
 
-            <label for="confirmPassword">Confirm Password</label>
+            <label for="confirmPassword">Konfirmasi Kata Sandi</label>
             <input type="password" id="confirmPassword" name="confirmPassword" required>
             <div id="confirmPasswordError" class="error-message"></div>
 
             <div class="checkbox-container">
                 <input type="checkbox" id="terms" name="terms">
-                <label for="terms">I Agree With Terms of Service</label>
+                <label for="terms">Saya Setuju dengan <a href="#">Ketentuan Layanan</a></label>
             </div>
             <div id="termsError" class="error-message"></div>
 
-            <button type="submit" id="registerButton">Register</button>
+            <button type="submit" id="registerButton">Daftar</button>
 
         </form>
 

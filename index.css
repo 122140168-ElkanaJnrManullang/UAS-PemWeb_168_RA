@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-add {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+.btn-update {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #3498db;
+  color: #fff;
+}
+
+thead th {
+  padding: 15px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody td {
+  padding: 12px;
+  font-size: 0.9rem;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* State Management */
+.state-management {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.state-management h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.state-management ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.state-management li {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Cookie Management */
+.cookie-management {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cookie-management h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.cookie-management button {
+  font-size: 0.9rem;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cookie-management button:hover {
+  background-color: #2980b9;
+}
+
+.cookie-management p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}

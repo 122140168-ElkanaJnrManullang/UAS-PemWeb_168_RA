@@ -1,5 +1,4 @@
 <?php
-// Get data from URL
 $name = $_GET['name'] ?? 'Unknown';
 $email = $_GET['email'] ?? 'Unknown';
 $adminCode = $_GET['adminCode'] ?? 'N/A';
@@ -10,23 +9,22 @@ $adminCode = $_GET['adminCode'] ?? 'N/A';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Success</title>
+    <title>Register Berhasil</title>
     <link rel="stylesheet" href="success.css">
 </head>
 
 <body>
     <div class="form-container">
-        <h2>Registration Successful!</h2>
-        <p>Thank you for registering. Here is your information:</p>
+        <h2>Pendaftaran Berhasil!</h2>
+        <p>Selamat Bergabung di Perusahaan, berikut informasi akun admin anda:</p>
         <ul>
-            <li><strong>Name:</strong> <?php echo htmlspecialchars($name); ?></li>
+            <li><strong>Nama:</strong> <?php echo htmlspecialchars($name); ?></li>
             <li><strong>Email:</strong> <?php echo htmlspecialchars($email); ?></li>
-            <li><strong>Admin Code:</strong> <?php echo htmlspecialchars($adminCode); ?></li>
+            <li><strong>Kode Admin:</strong> <?php echo htmlspecialchars($adminCode); ?></li>
         </ul>
-        <a href="register.html" style="display: block; text-align: center;">Register Another Admin</a>
+        <a href="register.html" style="display: block; text-align: center;">Halaman Registrasi</a>
 
-        <!-- Button to redirect to Inventory Page -->
-        <a href="inventoryPage.php" class="btn-main">Halaman Utama</a>
+        <a href="index.php" class="btn-main">Halaman Admin</a>
     </div>
 </body>
 
